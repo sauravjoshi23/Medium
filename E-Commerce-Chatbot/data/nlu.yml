@@ -1,0 +1,59 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: search_product
+  examples: |
+    - I'm looking for a dress
+    - Do you sell dresses?
+    - Can you please show me some dresses
+    - I want to buy some dress
+    - What type of dresses do you have?
+    - Dresses?
+
+- intent: dress_type_A
+  examples: |
+    - price is 100 dollars
+    - Red coloured dress
+    - Short in length
+    - Made of wool
+    - Material is very soft
+    - Winter season availability
+
+- intent: dress_type_B
+  examples: |
+    - Available during the summer
+    - Material is washable
+    - Made in India
+    - Buy one get one free season
+    - Very expensive
+    - Usage of very rich material

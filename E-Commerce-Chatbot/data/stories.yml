@@ -1,0 +1,20 @@
+version: "2.0"
+
+stories:
+
+- story: Search Product Path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_product
+  - action: utter_search_product
+
+- story: Dress Type A
+  steps:
+    - intent: dress_type_A
+    - action: utter_dress_type_A
+
+- story: Dress Type B
+  steps:
+    - intent: dress_type_B
+    - action: utter_dress_type_B

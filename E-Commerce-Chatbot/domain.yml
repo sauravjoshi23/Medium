@@ -1,0 +1,25 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- search_product
+- dress_type_A
+- dress_type_B
+responses:
+  utter_greet:
+  - text: Hi. How can I assist you?
+  utter_goodbye:
+  - text: Bye
+  utter_search_product:
+  - buttons:
+    - payload: /dress_type_A
+      title: Dress Type A
+    - payload: /dress_type_B
+      title: Dress Type B
+    text: Sure, I'd be happy to help you. Here are some of our best selling dresses.
+  utter_dress_type_A:
+  - text: Here is all information of Dress Type A.
+  utter_dress_type_B:
+  - text: Here is all information of Dress Type B.
